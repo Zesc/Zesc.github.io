@@ -13,13 +13,17 @@ span, h2, h3 {
 }
 
 h1 {
-  padding-top: 3%;
   font-size: 3.5rem;
   text-transform: uppercase;
   color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #ececec;
   line-height: 1;
+  transition: all 1000ms;
+}
+
+h1:hover {
+  color: #ececec;
 }
 
 span {
@@ -39,8 +43,15 @@ a {
   display: block;
   max-width: 50%;
   text-decoration: none;
-  color: #fff;
-  border: 1px solid #fff;
+  color: #ececec;
+  border: 1px solid #ececec;
+  border-radius: 25px;
   padding: 15px 20px;
   margin: 0 auto 3% auto;
+  transition: all 500ms;
+}
+
+a:hover {
+  color: rgba(72,68,156,1);
+  background-color: #ececec;
 }
