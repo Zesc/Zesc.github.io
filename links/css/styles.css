@@ -8,11 +8,13 @@ body {
   height: auto;
 }
 
+/*
 @media only screen and (min-width: 768px) {
   body{
     height: 97vh;
   }
 }
+*/
 
 span, h2, h3 {
   color: #ececec;
