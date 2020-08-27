@@ -1,46 +1,39 @@
+:root {
+  --letter-color: #e2e2e0;
+}
+
 body {
-  margin: 0;
-  padding: 0;
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  background: rgb(233,58,233);
-  background: linear-gradient(180deg, rgba(233,58,233,1) 0%, rgba(72,68,156,1) 54%, rgba(49,48,237,1) 100%);
-  height: auto;
+  background: green;
+  background: url(../assets/jeremy-bishop-img.jpg) no-repeat center fixed;
 }
-
-/*
-@media only screen and (min-width: 768px) {
-  body{
-    height: 97vh;
-  }
-}
-*/
 
 span, h2, h3 {
-  color: #ececec;
+  color: var(--letter-color);
 }
 
 h1 {
   font-size: 3.5rem;
   text-transform: uppercase;
   color: transparent;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #ececec;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--letter-color);
   line-height: 1;
   transition: all 1000ms;
 }
 
 h1:hover {
-  color: #ececec;
+  color: var(--letter-color);
 }
 
 span {
-  color: #ececec;
+  color: var(--letter-color);
 }
 
 h2 {
   font-size: 2rem;
-  color: #ececec;
+  color: var(--letter-color);
 }
 
 h3 {
@@ -51,8 +44,8 @@ a {
   display: block;
   max-width: 50%;
   text-decoration: none;
-  color: #ececec;
-  border: 1px solid #ececec;
+  color: var(--letter-color);
+  border: 1px solid var(--letter-color);
   border-radius: 25px;
   padding: 15px 20px;
   margin: 0 auto 3% auto;
@@ -65,5 +58,23 @@ a:last-child {
 
 a:hover {
   color: rgba(72,68,156,1);
-  background-color: #ececec;
+  background-color: var(--letter-color);
+}
+
+
+.container {
+  max-width: 450px;
+  text-align: center;
+  margin: auto auto;
+}
+
+.unsplash-link {
+  display: inline;
+  border: none;
+
+}
+
+.unsplash-link:hover {
+  color: inherit;
+  background-color: inherit;
 }
