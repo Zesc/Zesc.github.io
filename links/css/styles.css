@@ -1,12 +1,12 @@
 :root {
-  --letter-color: #e2e2e0;
+  --letter-color: #DDDDDD;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  background: green;
-  background: url(../assets/jeremy-bishop-img.jpg) no-repeat center fixed;
+  background: #222831;
+
 }
 
 span, h2, h3 {
